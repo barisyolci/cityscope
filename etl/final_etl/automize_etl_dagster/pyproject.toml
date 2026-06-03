@@ -1,0 +1,32 @@
+[project]
+name = "automize_etl_dagster"
+version = "0.1.0"
+description = "Automated Dagster ETL for CityScope real estate data"
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+dependencies = [
+    "dagster",
+    "dagster-cloud",
+    "pandas",
+    "requests",
+    "beautifulsoup4",
+    "lxml",
+    "webdriver-manager",
+    "selenium",
+    "urllib3",
+    "geopy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "dagster-webserver",
+    "pytest",
+]
+
+[build-system]
+requires = ["hatchling>=1.19.0"]
+build-backend = "hatchling.build"
+
+[tool.dagster]
+module_name = "automize_etl_dagster.definitions"
+code_location_name = "automize_etl_dagster"
