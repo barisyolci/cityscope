@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "site": "heijmans_nl",
+    "stage": "extract",
+    "last_updated": "2026-06-03T21:28:03.070787",
+    "total_projects": 18,
+    "scraped_this_run": 10,
+    "errors_this_run": 0
+  },
+  "projects": [
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/piekstraat/",
+      "straatnaam": "Piekstraat",
+      "aantal_woningen": null,
+      "woonplaats": "Rotterdam",
+      "wijk": null,
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/atlas/",
+      "naam": "Atlas",
+      "aantal_woningen": 30,
+      "woonplaats": "Rotterdam",
+      "wijk": "om te wonen",
+      "prijs_min": 340000.0,
+      "prijs_max": 428000.0,
+      "woonoppervlakte": "50 - 69",
+      "start_verkoop": "In verkoop",
+      "start_bouw": "In ontwikkeling",
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "koop",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/nieuw-kralingen/",
+      "naam": "Nieuw Kralingen",
+      "aantal_woningen": 79,
+      "woonplaats": "Rotterdam",
+      "wijk": null,
+      "prijs_min": 340000.0,
+      "prijs_max": 428000.0,
+      "woonoppervlakte": "147 - 233",
+      "start_verkoop": "In verkoop",
+      "start_bouw": "In ontwikkeling",
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "huur_en_koop",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/carnisse-eiland/",
+      "naam": "Carnisse Eiland",
+      "aantal_woningen": 30,
+      "woonplaats": "Rotterdam",
+      "wijk": "komt een paviljoen met een buurtplein",
+      "prijs_min": 340000.0,
+      "prijs_max": 428000.0,
+      "woonoppervlakte": "50 - 69",
+      "start_verkoop": "In verkoop",
+      "start_bouw": "In ontwikkeling",
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "huur_en_koop",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/parkhaven-010/",
+      "naam": "Parkhaven 010",
+      "aantal_woningen": 30,
+      "woonplaats": "Rotterdam",
+      "wijk": null,
+      "prijs_min": 340000.0,
+      "prijs_max": 428000.0,
+      "woonoppervlakte": "50 - 69",
+      "start_verkoop": "In verkoop",
+      "start_bouw": "In ontwikkeling",
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/inck-eindhoven/",
+      "straatnaam": "Inck Eindhoven",
+      "aantal_woningen": null,
+      "woonplaats": "Koopappartementen en huurappartementen",
+      "wijk": "Blaarthem tussen de Karel de Grotelaan en Humperdi",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": "In ontwikkeling",
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "huur_en_koop",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/westerhof-2-gouda/",
+      "straatnaam": "Westerhof 2 Gouda",
+      "aantal_woningen": null,
+      "woonplaats": "48 woningen",
+      "wijk": "Westergouwe",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/kruidengaard/",
+      "straatnaam": "Kruidengaard",
+      "aantal_woningen": null,
+      "woonplaats": "26 nieuwbouwwoningen",
+      "wijk": "Beaugaard in Hellevoetsluis",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/sint-laurens-noord/",
+      "straatnaam": "Sint Laurens Noord",
+      "aantal_woningen": null,
+      "woonplaats": null,
+      "wijk": null,
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "huur",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/beemd-a/",
+      "straatnaam": "Beemd A",
+      "aantal_woningen": null,
+      "woonplaats": "Nieuwbouwwoningen in Rosmalen",
+      "wijk": "De Beemden",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "koop",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/de-heeren-van-essen/",
+      "straatnaam": "De Heeren Van Essen",
+      "aantal_woningen": null,
+      "woonplaats": "luxe appartementen en penthouses",
+      "wijk": null,
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/spinaker-piushaven/",
+      "straatnaam": "Spinaker Piushaven",
+      "aantal_woningen": null,
+      "woonplaats": "Heijmans nieuwbouw",
+      "wijk": null,
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/feel-good-mortiere/",
+      "straatnaam": "Feel Good Mortiere",
+      "aantal_woningen": null,
+      "woonplaats": "Duurzame nieuwbouwwoningen",
+      "wijk": "komt",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/blent-nijmegen/",
+      "straatnaam": "Blent Nijmegen",
+      "aantal_woningen": null,
+      "woonplaats": null,
+      "wijk": "in het hart van Hof van Holland",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "koop",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/park-vijfsluizen/",
+      "straatnaam": "Park Vijfsluizen",
+      "aantal_woningen": null,
+      "woonplaats": "Heijmans Nieuwbouw",
+      "wijk": null,
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Twee-onder-een-kapwoning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/lauwerserf/",
+      "straatnaam": "Lauwerserf",
+      "aantal_woningen": null,
+      "woonplaats": "24 duurzame eengezinswoningen",
+      "wijk": null,
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": "koop",
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/borg-en-buiten/",
+      "straatnaam": "Borg En Buiten",
+      "aantal_woningen": null,
+      "woonplaats": "Nieuwbouwwoningen in Parijsch, Culemborg",
+      "wijk": "Parijsch",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    },
+    {
+      "url": "https://heijmansnieuwbouw.nl/projecten/podium-amersfoort/",
+      "straatnaam": "Podium Amersfoort",
+      "aantal_woningen": null,
+      "woonplaats": "Ruime stadswoningen en appartementen",
+      "wijk": "met volop groen en ruimte om elkaar te ontmoeten",
+      "prijs_min": null,
+      "prijs_max": null,
+      "woonoppervlakte": null,
+      "start_verkoop": "In verkoop",
+      "start_bouw": null,
+      "woningtypes": [
+        "Appartement",
+        "Vrijstaande woning",
+        "Tussenwoning",
+        "Kavel"
+      ],
+      "provided_by": "Heijmans",
+      "huur_of_koop": null,
+      "bouwnummers": []
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+2026-05-26 12:14:07,134 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-26 12:14:07,135 | INFO     | URLs ophalen uit sitemap...
+2026-05-26 12:14:07,925 | INFO     | Te verwerken URLs: 10
+2026-05-26 12:14:07,925 | INFO     | Scraper module laden...
+2026-05-26 12:14:08,173 | INFO     | Bestaande records in database: 0
+2026-05-26 12:15:12,458 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-05-26 12:15:12,463 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\data\nieuwbouw_nl.json
+2026-05-26 12:15:12,469 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-05-26 12:15:12,521 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\transform\nieuwbouw_nl.json
+2026-05-26 12:15:12,527 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-05-26 12:15:12,601 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\load\nieuwbouw_nl.sqlite
+2026-05-26 12:35:37,603 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-05-26 12:35:37,604 | INFO     | URLs ophalen uit listing page...
+2026-05-26 12:35:39,232 | INFO     | Te verwerken URLs: 20
+2026-05-26 12:35:39,232 | INFO     | Scraper module laden...
+2026-05-26 12:35:39,255 | INFO     | Bestaande records in database: 0
+2026-05-26 12:37:40,295 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 20 | Fouten: 0
+2026-05-26 12:37:40,307 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\data\nieuwbouw_rotterdam.json
+2026-05-26 12:37:40,314 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-05-26 12:37:40,361 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\transform\nieuwbouw_rotterdam.json
+2026-05-26 12:37:40,364 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-05-26 12:37:40,437 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL\output\load\nieuwbouw_rotterdam.sqlite
+2026-05-27 10:43:04,546 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-27 10:43:04,550 | INFO     | URLs ophalen uit sitemap...
+2026-05-27 10:43:05,960 | INFO     | Te verwerken URLs: 10
+2026-05-27 10:43:05,962 | INFO     | Scraper module laden...
+2026-05-27 10:43:05,976 | INFO     | Bestaande records in database: 0
+2026-05-27 10:44:20,956 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-05-27 10:44:20,961 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-05-27 10:46:42,704 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-27 10:46:42,706 | INFO     | URLs ophalen uit sitemap...
+2026-05-27 10:46:44,646 | INFO     | Te verwerken URLs: 10
+2026-05-27 10:46:44,691 | INFO     | Scraper module laden...
+2026-05-27 10:46:44,795 | INFO     | Bestaande records in database: 0
+2026-05-27 10:47:36,696 | ERROR    | EXTRACTIE FOUT | Site: nieuwbouw_nl | URL: https://nieuwbouw.nl/aanbod/huur/loon-op-zand/01KP8SMJNT7HGDQXFJP2EQYPTD-kaatsheuvel | Error: HTTPSConnectionPool(host='nieuwbouw.nl', port=443): Read timed out.
+2026-05-27 10:48:48,278 | ERROR    | EXTRACTIE FOUT | Site: nieuwbouw_nl | URL: https://nieuwbouw.nl/aanbod/koop/hilversum/01KS7QE12PX4791JMF7R3CNDDA-monnikenpark-fase-2b | Error: HTTPSConnectionPool(host='nieuwbouw.nl', port=443): Read timed out.
+2026-05-27 10:51:37,950 | ERROR    | EXTRACTIE FOUT | Site: nieuwbouw_nl | URL: https://nieuwbouw.nl/aanbod/koop/haaksbergen/01KS7NF75ASS10HJGN8Z6BJFQK-eschgaarde | Error: HTTPSConnectionPool(host='nieuwbouw.nl', port=443): Read timed out.
+2026-05-27 10:52:27,008 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 7 | Fouten: 3
+2026-05-27 10:52:27,013 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-05-27 10:52:27,028 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-05-27 10:52:27,090 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-05-27 10:52:27,096 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-05-27 10:52:27,201 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-05-27 11:18:02,061 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-05-27 11:18:02,062 | INFO     | URLs ophalen uit listing page...
+2026-05-27 11:18:03,740 | INFO     | Te verwerken URLs: 10
+2026-05-27 11:18:03,740 | INFO     | Scraper module laden...
+2026-05-27 11:18:03,764 | INFO     | Bestaande records in database: 0
+2026-05-27 11:19:07,269 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-05-27 11:19:07,280 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-05-27 11:19:07,286 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-05-27 11:19:07,337 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-05-27 11:19:07,339 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-05-27 11:19:07,399 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-05-29 16:51:25,357 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-29 16:51:25,358 | INFO     | URLs ophalen uit sitemap...
+2026-05-29 16:51:26,827 | INFO     | Te verwerken URLs: 10
+2026-05-29 16:51:26,828 | INFO     | Scraper module laden...
+2026-05-29 16:51:26,878 | INFO     | Bestaande records in database: 7
+2026-05-29 16:52:31,588 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-05-29 16:52:31,599 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-05-29 23:56:56,661 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-29 23:56:56,662 | INFO     | URLs ophalen uit sitemap...
+2026-05-29 23:56:57,722 | INFO     | Te verwerken URLs: 10
+2026-05-29 23:56:57,723 | INFO     | Scraper module laden...
+2026-05-29 23:56:57,752 | INFO     | Bestaande records in database: 16
+2026-05-29 23:58:02,047 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-05-29 23:58:02,059 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-05-29 23:58:02,065 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-05-29 23:58:02,119 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-05-29 23:58:02,124 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-05-29 23:58:02,212 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-05-30 00:07:22,315 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-30 00:07:22,317 | INFO     | URLs ophalen uit sitemap...
+2026-05-30 00:07:23,623 | INFO     | Te verwerken URLs: 10
+2026-05-30 00:07:23,624 | INFO     | Scraper module laden...
+2026-05-30 00:07:23,633 | INFO     | Bestaande records in database: 16
+2026-05-30 00:08:29,592 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-05-30 00:08:29,599 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-05-30 00:08:29,610 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-05-30 00:08:29,677 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-05-30 00:08:29,684 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-05-30 00:08:29,897 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-05-30 12:00:34,723 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-30 12:00:34,725 | INFO     | URLs ophalen uit sitemap...
+2026-05-30 12:00:35,596 | INFO     | Te verwerken URLs: 10
+2026-05-30 12:00:35,597 | INFO     | Scraper module laden...
+2026-05-30 12:00:35,660 | INFO     | Bestaande records in database: 16
+2026-05-30 12:01:36,248 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-05-30 12:01:36,256 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-05-30 12:01:36,264 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-05-30 12:01:36,320 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-05-30 12:01:36,324 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-05-30 12:01:36,418 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-05-30 12:12:19,748 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-05-30 12:12:19,749 | INFO     | URLs ophalen uit sitemap...
+2026-05-30 12:12:20,790 | INFO     | Te verwerken URLs: 10
+2026-05-30 12:12:20,790 | INFO     | Scraper module laden...
+2026-05-30 12:12:20,799 | INFO     | Bestaande records in database: 17
+2026-05-30 12:13:26,069 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-05-30 12:13:26,076 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-05-30 12:13:26,082 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-05-30 12:13:26,126 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-05-30 12:13:26,128 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-05-30 12:13:26,192 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-05-30 12:19:44,199 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-05-30 12:19:44,200 | INFO     | URLs ophalen uit sitemap...
+2026-05-30 12:19:45,274 | INFO     | Te verwerken URLs: 10
+2026-05-30 12:19:45,274 | INFO     | Scraper module laden...
+2026-05-30 12:19:45,290 | INFO     | Bestaande records in database: 0
+2026-05-30 12:19:45,939 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/westerhof-2-gouda/
+2026-05-30 12:19:51,643 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/kruidengaard/
+2026-05-30 12:19:57,386 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/sint-laurens-noord/
+2026-05-30 12:20:03,064 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/beemd-a/
+2026-05-30 12:20:08,717 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/de-heeren-van-essen/
+2026-05-30 12:20:15,436 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/spinaker-piushaven/
+2026-05-30 12:20:21,669 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/feel-good-mortiere/
+2026-05-30 12:20:27,313 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/blent-nijmegen/
+2026-05-30 12:20:33,584 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/park-vijfsluizen/
+2026-05-30 12:20:39,898 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 1 | Fouten: 9
+2026-05-30 12:20:39,907 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-05-30 12:20:39,915 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-05-30 12:20:39,950 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-05-30 12:20:39,953 | INFO     | START LOAD | Site: heijmans_nl
+2026-05-30 12:20:40,000 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-05-30 15:26:55,885 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-05-30 15:26:55,886 | INFO     | URLs ophalen uit sitemap...
+2026-05-30 15:26:57,264 | INFO     | Te verwerken URLs: 10
+2026-05-30 15:26:57,264 | INFO     | Scraper module laden...
+2026-05-30 15:26:58,713 | INFO     | Bestaande records in database: 1
+2026-05-30 15:26:59,296 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/beemd-a/
+2026-05-30 15:27:05,100 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/de-heeren-van-essen/
+2026-05-30 15:27:10,802 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/spinaker-piushaven/
+2026-05-30 15:27:16,413 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/feel-good-mortiere/
+2026-05-30 15:27:22,238 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/blent-nijmegen/
+2026-05-30 15:27:28,793 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/park-vijfsluizen/
+2026-05-30 15:27:41,605 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/borg-en-buiten/
+2026-05-30 15:27:47,356 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/podium-amersfoort/
+2026-05-30 15:27:53,759 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/thedemaborg/
+2026-05-30 15:27:53,759 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 1 | Fouten: 9
+2026-05-30 15:27:53,768 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-05-30 15:27:53,777 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-05-30 15:27:53,817 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-05-30 15:27:53,821 | INFO     | START LOAD | Site: heijmans_nl
+2026-05-30 15:27:53,905 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-05-30 15:29:09,352 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-05-30 15:29:09,353 | INFO     | URLs ophalen uit sitemap...
+2026-05-30 15:29:10,901 | INFO     | Te verwerken URLs: 10
+2026-05-30 15:29:10,902 | INFO     | Scraper module laden...
+2026-05-30 15:29:11,585 | INFO     | Bestaande records in database: 1
+2026-05-30 15:29:12,109 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/beemd-a/
+2026-05-30 15:29:17,781 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/de-heeren-van-essen/
+2026-05-30 15:29:23,513 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/spinaker-piushaven/
+2026-05-30 15:29:29,164 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/feel-good-mortiere/
+2026-05-30 15:29:34,924 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/blent-nijmegen/
+2026-05-30 15:29:40,621 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/park-vijfsluizen/
+2026-05-30 15:29:53,876 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/borg-en-buiten/
+2026-05-30 15:30:00,251 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/podium-amersfoort/
+2026-05-30 15:30:06,653 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/thedemaborg/
+2026-05-30 15:30:06,654 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 1 | Fouten: 9
+2026-05-30 15:30:06,659 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-05-30 15:30:06,665 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-05-30 15:30:06,708 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-05-30 15:30:06,710 | INFO     | START LOAD | Site: heijmans_nl
+2026-05-30 15:30:06,759 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-05-30 16:05:09,454 | INFO     | START EXTRACT | Site: houseatthepark_nl
+2026-05-30 16:05:09,455 | INFO     | Geen sitemap, gebruik base_url...
+2026-05-30 16:05:09,456 | INFO     | Te verwerken URLs: 1
+2026-05-30 16:05:09,456 | INFO     | Scraper module laden...
+2026-05-30 16:05:10,184 | INFO     | Bestaande records in database: 0
+2026-05-30 16:05:36,331 | INFO     | EXTRACT VOLTOOID | Site: houseatthepark_nl | Succes: 52 | Fouten: 0
+2026-05-30 16:05:36,338 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\houseatthepark_nl.json
+2026-05-30 16:05:36,342 | INFO     | START TRANSFORM | Site: houseatthepark_nl
+2026-05-30 16:05:36,431 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\houseatthepark_nl.json
+2026-05-30 16:05:36,433 | INFO     | START LOAD | Site: houseatthepark_nl
+2026-05-30 16:05:36,494 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\houseatthepark_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\houseatthepark_nl.sqlite
+2026-05-30 16:07:39,555 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-05-30 16:07:39,556 | INFO     | URLs ophalen uit listing page...
+2026-05-30 16:07:41,585 | INFO     | Te verwerken URLs: 10
+2026-05-30 16:07:41,586 | INFO     | Scraper module laden...
+2026-05-30 16:07:41,644 | INFO     | Bestaande records in database: 0
+2026-05-30 16:07:42,444 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-05-30 16:08:33,630 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-05-30 16:08:33,635 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-05-30 16:08:33,641 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-05-30 16:08:33,693 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-05-30 16:08:33,695 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-05-30 16:08:33,757 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-05-30 16:10:25,108 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-05-30 16:10:25,109 | INFO     | URLs ophalen uit listing page...
+2026-05-30 16:10:26,513 | INFO     | Te verwerken URLs: 10
+2026-05-30 16:10:26,513 | INFO     | Scraper module laden...
+2026-05-30 16:10:26,554 | INFO     | Bestaande records in database: 10
+2026-05-30 16:11:22,886 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-05-30 16:11:22,896 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-05-30 16:11:22,902 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-05-30 16:11:22,948 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-05-30 16:11:22,951 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-05-30 16:11:23,013 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-02 22:34:35,021 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-02 22:34:35,023 | INFO     | URLs ophalen uit listing page...
+2026-06-02 22:34:36,705 | INFO     | Te verwerken URLs: 10
+2026-06-02 22:34:36,705 | INFO     | Scraper module laden...
+2026-06-02 22:34:36,815 | INFO     | Bestaande records in database: 12
+2026-06-02 22:35:34,520 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-02 22:35:34,532 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-02 22:35:34,537 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-02 22:35:34,617 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-02 22:35:34,620 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-02 22:35:34,723 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-02 22:44:47,981 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-02 22:44:47,982 | INFO     | URLs ophalen uit listing page...
+2026-06-02 22:44:49,706 | INFO     | Te verwerken URLs: 10
+2026-06-02 22:44:49,706 | INFO     | Scraper module laden...
+2026-06-02 22:44:49,719 | INFO     | Bestaande records in database: 13
+2026-06-02 22:45:49,949 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-02 22:45:49,959 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-02 22:45:49,970 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-02 22:45:50,024 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-02 22:45:50,028 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-02 22:45:50,132 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-02 23:05:06,771 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-02 23:05:06,771 | INFO     | URLs ophalen uit listing page...
+2026-06-02 23:05:07,722 | INFO     | Te verwerken URLs: 10
+2026-06-02 23:05:07,722 | INFO     | Scraper module laden...
+2026-06-02 23:05:07,747 | INFO     | Bestaande records in database: 13
+2026-06-02 23:06:01,442 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-02 23:06:01,449 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-02 23:06:01,454 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-02 23:06:01,503 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-02 23:06:01,506 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-02 23:06:01,568 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-02 23:09:25,708 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-02 23:09:25,709 | INFO     | URLs ophalen uit listing page...
+2026-06-02 23:09:27,422 | INFO     | Te verwerken URLs: 10
+2026-06-02 23:09:27,423 | INFO     | Scraper module laden...
+2026-06-02 23:09:27,494 | INFO     | Bestaande records in database: 13
+2026-06-02 23:10:25,651 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-02 23:10:25,657 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-02 23:10:25,663 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-02 23:10:25,708 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-02 23:10:25,711 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-02 23:10:25,778 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-02 23:16:39,941 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-02 23:16:39,942 | INFO     | URLs ophalen uit listing page...
+2026-06-02 23:16:41,822 | INFO     | Te verwerken URLs: 10
+2026-06-02 23:16:41,823 | INFO     | Scraper module laden...
+2026-06-02 23:16:41,886 | INFO     | Bestaande records in database: 13
+2026-06-02 23:17:39,522 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-02 23:17:39,527 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-02 23:17:39,535 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-02 23:17:39,590 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-02 23:17:39,594 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-02 23:17:39,657 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-02 23:24:04,342 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-02 23:24:04,343 | INFO     | URLs ophalen uit listing page...
+2026-06-02 23:24:06,048 | INFO     | Te verwerken URLs: 10
+2026-06-02 23:24:06,048 | INFO     | Scraper module laden...
+2026-06-02 23:24:06,055 | INFO     | Bestaande records in database: 13
+2026-06-02 23:25:04,382 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-02 23:25:04,391 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-02 23:25:04,398 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-02 23:25:04,456 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-02 23:25:04,460 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-02 23:25:04,528 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-02 23:51:01,455 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-06-02 23:51:01,457 | INFO     | URLs ophalen uit sitemap...
+2026-06-02 23:51:02,704 | INFO     | Te verwerken URLs: 10
+2026-06-02 23:51:02,705 | INFO     | Scraper module laden...
+2026-06-02 23:51:02,774 | INFO     | Bestaande records in database: 17
+2026-06-02 23:52:07,044 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-06-02 23:52:07,057 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-06-02 23:52:07,063 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-06-02 23:52:07,116 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-06-02 23:52:07,120 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-06-02 23:52:07,200 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-06-03 00:39:24,535 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 00:39:24,536 | INFO     | URLs ophalen uit listing page...
+2026-06-03 00:39:26,536 | INFO     | Te verwerken URLs: 10
+2026-06-03 00:39:26,537 | INFO     | Scraper module laden...
+2026-06-03 00:39:26,692 | INFO     | Bestaande records in database: 9
+2026-06-03 00:39:27,572 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 00:40:18,715 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 00:40:18,722 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-06-03 00:40:18,730 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 00:40:18,805 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-06-03 00:40:18,808 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 00:40:18,894 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-06-03 00:41:49,106 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 00:41:49,107 | INFO     | URLs ophalen uit listing page...
+2026-06-03 00:41:50,873 | INFO     | Te verwerken URLs: 10
+2026-06-03 00:41:50,873 | INFO     | Scraper module laden...
+2026-06-03 00:41:50,881 | INFO     | Bestaande records in database: 10
+2026-06-03 00:41:51,667 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 00:42:42,777 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 00:42:42,783 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-06-03 00:42:42,789 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 00:42:42,855 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-06-03 00:42:42,858 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 00:42:42,931 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-06-03 00:48:27,506 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 00:48:27,507 | INFO     | URLs ophalen uit listing page...
+2026-06-03 00:48:29,465 | INFO     | Te verwerken URLs: 10
+2026-06-03 00:48:29,465 | INFO     | Scraper module laden...
+2026-06-03 00:48:29,553 | INFO     | Bestaande records in database: 10
+2026-06-03 00:48:30,418 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 00:49:21,878 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 00:49:21,889 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-06-03 00:49:21,910 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 00:49:21,987 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-06-03 00:49:21,992 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 00:49:22,129 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-06-03 00:54:05,760 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 00:54:05,762 | INFO     | URLs ophalen uit listing page...
+2026-06-03 00:54:07,570 | INFO     | Te verwerken URLs: 10
+2026-06-03 00:54:07,571 | INFO     | Scraper module laden...
+2026-06-03 00:54:07,661 | INFO     | Bestaande records in database: 10
+2026-06-03 00:54:08,816 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 00:55:00,667 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 00:55:00,676 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-06-03 00:55:00,692 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 00:55:00,928 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-06-03 00:55:00,934 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 00:55:01,191 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-06-03 01:10:28,614 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 01:10:28,616 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 01:10:37,121 | INFO     | Te verwerken URLs: 10
+2026-06-03 01:10:37,121 | INFO     | Scraper module laden...
+2026-06-03 01:10:38,066 | INFO     | Bestaande records in database: 1
+2026-06-03 01:10:39,067 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/brabant-bad/
+2026-06-03 01:10:52,495 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/inck-eindhoven/
+2026-06-03 01:11:05,925 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/connect-mortiere/
+2026-06-03 01:11:18,753 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/lauwerserf/
+2026-06-03 01:11:32,103 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/vondelhof/
+2026-06-03 01:11:38,595 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/wolderburght-meerstad/
+2026-06-03 01:11:38,596 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 4 | Fouten: 6
+2026-06-03 01:11:38,605 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-06-03 01:11:38,614 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-06-03 01:11:38,654 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-06-03 01:11:38,657 | INFO     | START LOAD | Site: heijmans_nl
+2026-06-03 01:11:38,729 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-06-03 01:42:01,537 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-06-03 01:42:01,539 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 01:42:02,995 | INFO     | Te verwerken URLs: 10
+2026-06-03 01:42:02,995 | INFO     | Scraper module laden...
+2026-06-03 01:42:03,011 | INFO     | Bestaande records in database: 24
+2026-06-03 01:43:07,895 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-06-03 01:43:07,908 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-06-03 01:43:07,916 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-06-03 01:43:07,971 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-06-03 01:43:07,974 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-06-03 01:43:08,056 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-06-03 01:44:29,849 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 01:44:29,850 | INFO     | URLs ophalen uit listing page...
+2026-06-03 01:44:31,810 | INFO     | Te verwerken URLs: 10
+2026-06-03 01:44:31,810 | INFO     | Scraper module laden...
+2026-06-03 01:44:31,820 | INFO     | Bestaande records in database: 10
+2026-06-03 01:44:32,608 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 01:45:23,830 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 01:45:23,851 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-06-03 01:45:23,860 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 01:45:23,926 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-06-03 01:45:23,931 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 01:45:24,012 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-06-03 01:47:00,279 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-03 01:47:00,280 | INFO     | URLs ophalen uit listing page...
+2026-06-03 01:47:05,877 | INFO     | Te verwerken URLs: 10
+2026-06-03 01:47:05,878 | INFO     | Scraper module laden...
+2026-06-03 01:47:05,898 | INFO     | Bestaande records in database: 13
+2026-06-03 01:48:12,793 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-03 01:48:12,806 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-03 01:48:12,810 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-03 01:48:12,889 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-03 01:48:12,892 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-03 01:48:12,955 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-03 01:56:34,420 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 01:56:34,421 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 01:56:35,688 | INFO     | Te verwerken URLs: 10
+2026-06-03 01:56:35,690 | INFO     | Scraper module laden...
+2026-06-03 01:56:36,552 | INFO     | Bestaande records in database: 5
+2026-06-03 01:56:38,430 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/brabant-bad/
+2026-06-03 01:56:51,276 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/inck-eindhoven/
+2026-06-03 01:57:03,832 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/connect-mortiere/
+2026-06-03 01:57:16,446 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/lauwerserf/
+2026-06-03 01:57:28,925 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/vondelhof/
+2026-06-03 01:57:35,888 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/wolderburght-meerstad/
+2026-06-03 01:57:35,889 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 4 | Fouten: 6
+2026-06-03 01:57:35,899 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-06-03 01:57:35,907 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-06-03 01:57:36,005 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-06-03 01:57:36,007 | INFO     | START LOAD | Site: heijmans_nl
+2026-06-03 01:57:36,064 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-06-03 02:34:58,404 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 02:34:58,407 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 02:35:01,286 | INFO     | Te verwerken URLs: 10
+2026-06-03 02:35:01,287 | INFO     | Scraper module laden...
+2026-06-03 02:35:01,392 | INFO     | Bestaande records in database: 5
+2026-06-03 02:35:03,937 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/atlas/
+2026-06-03 02:35:09,973 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/thedemaborg/
+2026-06-03 02:35:36,737 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/brabant-bad/
+2026-06-03 02:35:42,320 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/willemspoort-zuid/
+2026-06-03 02:36:16,855 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/nieuw-boekhorst/
+2026-06-03 02:36:23,296 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/fortenkavels/
+2026-06-03 02:36:40,783 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/architectenkavels/
+2026-06-03 02:36:57,847 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/bellevue-utrecht/
+2026-06-03 02:37:04,191 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/liv/
+2026-06-03 02:37:10,508 | WARNING  | LEEG RESULTAAT | Site: heijmans_nl | URL: https://heijmansnieuwbouw.nl/projecten/bos-en-buur/
+2026-06-03 02:37:10,509 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 0 | Fouten: 10
+2026-06-03 02:37:10,516 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-06-03 02:37:10,522 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-06-03 02:37:10,599 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-06-03 02:37:10,602 | INFO     | START LOAD | Site: heijmans_nl
+2026-06-03 02:37:10,694 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-06-03 02:44:30,874 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 02:44:30,875 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 02:44:36,892 | INFO     | Te verwerken URLs: 10
+2026-06-03 02:44:36,893 | INFO     | Scraper module laden...
+2026-06-03 02:44:36,915 | INFO     | Bestaande records in database: 5
+2026-06-03 02:45:57,553 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 10 | Fouten: 0
+2026-06-03 02:45:57,566 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-06-03 02:45:57,570 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-06-03 02:45:57,636 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-06-03 02:45:57,641 | INFO     | START LOAD | Site: heijmans_nl
+2026-06-03 02:45:57,729 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-06-03 03:10:02,862 | INFO     | START MERGE | Combining all site outputs
+2026-06-03 03:10:03,052 | INFO     | MERGE VOLTOOID
+2026-06-03 03:18:30,811 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 03:18:30,813 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 03:18:32,088 | INFO     | Te verwerken URLs: 10
+2026-06-03 03:18:32,103 | INFO     | Scraper module laden...
+2026-06-03 03:18:32,181 | INFO     | Bestaande records in database: 15
+2026-06-03 03:19:31,471 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 10 | Fouten: 0
+2026-06-03 03:19:31,483 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-06-03 03:19:31,489 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-06-03 03:19:31,539 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-06-03 03:19:31,541 | INFO     | START LOAD | Site: heijmans_nl
+2026-06-03 03:19:31,620 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-06-03 03:20:30,726 | INFO     | START MERGE | Combining all site outputs
+2026-06-03 03:20:30,897 | INFO     | MERGE VOLTOOID
+2026-06-03 03:57:55,593 | INFO     | START MERGE | Combining all site outputs
+2026-06-03 03:57:55,596 | ERROR    | MERGE FOUT | [Errno 2] No such file or directory: 'C:\\Users\\baris\\school\\jaar 3\\sem_6\\project_code\\ETL_full\\output\\load\\load\\merged_all_sites.json'
+2026-06-03 04:04:13,807 | INFO     | START MERGE | Combining all site outputs
+2026-06-03 04:05:25,855 | INFO     | MERGE VOLTOOID
+2026-06-03 04:45:04,581 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 04:45:04,583 | INFO     | URLs ophalen uit listing page...
+2026-06-03 04:45:06,089 | INFO     | Te verwerken URLs: 10
+2026-06-03 04:45:06,089 | INFO     | Scraper module laden...
+2026-06-03 04:45:06,150 | INFO     | Bestaande records in database: 10
+2026-06-03 04:45:07,146 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 04:45:58,365 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 04:45:58,378 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 9.
+2026-06-03 04:45:58,386 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-06-03 04:45:58,395 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 04:45:58,448 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-06-03 04:45:58,452 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 04:45:58,537 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-06-03 04:46:31,198 | INFO     | START MERGE | Combining all site outputs
+2026-06-03 04:46:31,280 | INFO     | MERGE VOLTOOID
+2026-06-03 05:26:51,813 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 05:26:51,815 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 05:26:52,504 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 05:26:52,509 | INFO     | URLs ophalen uit listing page...
+2026-06-03 05:26:52,855 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-06-03 05:26:52,864 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 05:26:52,897 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:26:52,905 | INFO     | Scraper module laden...
+2026-06-03 05:26:53,502 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-03 05:26:53,505 | INFO     | URLs ophalen uit listing page...
+2026-06-03 05:26:53,888 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:26:53,889 | INFO     | Scraper module laden...
+2026-06-03 05:26:54,133 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:26:54,139 | INFO     | Scraper module laden...
+2026-06-03 05:26:55,000 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:26:55,002 | INFO     | Scraper module laden...
+2026-06-03 05:39:09,826 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 05:39:09,829 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 05:39:10,179 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 05:39:10,179 | INFO     | URLs ophalen uit listing page...
+2026-06-03 05:39:10,374 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-06-03 05:39:10,378 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 05:39:10,833 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-03 05:39:10,839 | INFO     | URLs ophalen uit listing page...
+2026-06-03 05:39:11,437 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:39:11,444 | INFO     | Scraper module laden...
+2026-06-03 05:39:11,513 | INFO     | Bestaande records in database: 25
+2026-06-03 05:39:11,781 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:39:11,788 | INFO     | Scraper module laden...
+2026-06-03 05:39:11,825 | INFO     | Bestaande records in database: 10
+2026-06-03 05:39:12,539 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:39:12,548 | INFO     | Scraper module laden...
+2026-06-03 05:39:12,642 | INFO     | Bestaande records in database: 13
+2026-06-03 05:39:12,734 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 05:39:13,365 | INFO     | Te verwerken URLs: 10
+2026-06-03 05:39:13,367 | INFO     | Scraper module laden...
+2026-06-03 05:39:13,376 | INFO     | Bestaande records in database: 18
+2026-06-03 05:40:05,425 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 05:40:05,536 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 9.
+2026-06-03 05:40:05,546 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\huurwoningen_rotterdam.json
+2026-06-03 05:40:14,710 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-03 05:40:14,803 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 10.
+2026-06-03 05:40:14,809 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_rotterdam.json
+2026-06-03 05:40:16,794 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-06-03 05:40:16,836 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 10.
+2026-06-03 05:40:16,842 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\nieuwbouw_nl.json
+2026-06-03 05:40:20,540 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 05:40:20,582 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\huurwoningen_rotterdam.json
+2026-06-03 05:40:25,942 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-03 05:40:25,975 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_rotterdam.json
+2026-06-03 05:40:28,198 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-06-03 05:40:28,243 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\nieuwbouw_nl.json
+2026-06-03 05:40:31,239 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 05:40:31,313 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\huurwoningen_rotterdam.sqlite
+2026-06-03 05:40:37,789 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-03 05:40:37,854 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_rotterdam.sqlite
+2026-06-03 05:40:40,348 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-06-03 05:40:40,416 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\nieuwbouw_nl.sqlite
+2026-06-03 05:42:16,364 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 10 | Fouten: 0
+2026-06-03 05:42:16,454 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 10.
+2026-06-03 05:42:16,463 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\data\heijmans_nl.json
+2026-06-03 05:42:34,449 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-06-03 05:42:34,494 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\transform\heijmans_nl.json
+2026-06-03 05:42:48,986 | INFO     | START LOAD | Site: heijmans_nl
+2026-06-03 05:42:49,087 | INFO     | LOAD VOLTOOID | JSON: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.json | DB: C:\Users\baris\school\jaar 3\sem_6\project_code\ETL_full\output\load\heijmans_nl.sqlite
+2026-06-03 05:43:05,352 | INFO     | START MERGE | Combining all site outputs
+2026-06-03 05:44:20,568 | INFO     | MERGE VOLTOOID
+2026-06-03 21:27:05,851 | INFO     | START EXTRACT | Site: heijmans_nl
+2026-06-03 21:27:05,864 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 21:27:06,086 | INFO     | START EXTRACT | Site: huurwoningen_rotterdam
+2026-06-03 21:27:06,087 | INFO     | URLs ophalen uit listing page...
+2026-06-03 21:27:06,719 | INFO     | START EXTRACT | Site: nieuwbouw_nl
+2026-06-03 21:27:06,720 | INFO     | URLs ophalen uit sitemap...
+2026-06-03 21:27:07,040 | INFO     | START EXTRACT | Site: nieuwbouw_rotterdam
+2026-06-03 21:27:07,044 | INFO     | URLs ophalen uit listing page...
+2026-06-03 21:27:07,413 | INFO     | Te verwerken URLs: 10
+2026-06-03 21:27:07,438 | INFO     | Scraper module laden...
+2026-06-03 21:27:07,510 | INFO     | Bestaande records in database: 18
+2026-06-03 21:27:08,082 | INFO     | Te verwerken URLs: 10
+2026-06-03 21:27:08,101 | INFO     | Scraper module laden...
+2026-06-03 21:27:08,159 | INFO     | Te verwerken URLs: 10
+2026-06-03 21:27:08,182 | INFO     | Scraper module laden...
+2026-06-03 21:27:08,198 | INFO     | Bestaande records in database: 10
+2026-06-03 21:27:08,231 | INFO     | Bestaande records in database: 25
+2026-06-03 21:27:08,776 | INFO     | Te verwerken URLs: 10
+2026-06-03 21:27:08,800 | INFO     | Scraper module laden...
+2026-06-03 21:27:08,883 | INFO     | Bestaande records in database: 13
+2026-06-03 21:27:09,178 | WARNING  | LEEG RESULTAAT | Site: huurwoningen_rotterdam | URL: https://www.huurwoningen.com/bestaande-bouw/huren/rotterdam/
+2026-06-03 21:28:02,476 | INFO     | EXTRACT VOLTOOID | Site: huurwoningen_rotterdam | Succes: 9 | Fouten: 1
+2026-06-03 21:28:02,557 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 9.
+2026-06-03 21:28:02,561 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\data\huurwoningen_rotterdam.json
+2026-06-03 21:28:03,034 | INFO     | EXTRACT VOLTOOID | Site: heijmans_nl | Succes: 10 | Fouten: 0
+2026-06-03 21:28:03,070 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 10.
+2026-06-03 21:28:03,077 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\data\heijmans_nl.json
+2026-06-03 21:28:08,798 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_rotterdam | Succes: 10 | Fouten: 0
+2026-06-03 21:28:08,843 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 10.
+2026-06-03 21:28:08,850 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\data\nieuwbouw_rotterdam.json
+2026-06-03 21:28:11,763 | INFO     | EXTRACT VOLTOOID | Site: nieuwbouw_nl | Succes: 10 | Fouten: 0
+2026-06-03 21:28:11,825 | INFO     | VALIDATIE VOLTOOID | 0 geldige records over van 10.
+2026-06-03 21:28:11,834 | INFO     | EXTRACT DATABASE GEUPDATET | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\data\nieuwbouw_nl.json
+2026-06-03 21:28:19,544 | INFO     | START TRANSFORM | Site: huurwoningen_rotterdam
+2026-06-03 21:28:19,592 | INFO     | START TRANSFORM | Site: heijmans_nl
+2026-06-03 21:28:19,629 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\transform\heijmans_nl.json
+2026-06-03 21:28:19,649 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\transform\huurwoningen_rotterdam.json
+2026-06-03 21:28:25,684 | INFO     | START TRANSFORM | Site: nieuwbouw_rotterdam
+2026-06-03 21:28:25,755 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\transform\nieuwbouw_rotterdam.json
+2026-06-03 21:28:29,788 | INFO     | START TRANSFORM | Site: nieuwbouw_nl
+2026-06-03 21:28:29,831 | INFO     | TRANSFORM VOLTOOID | Pad: C:\Users\baris\school\jaar 3\sem_6\project_code\final_etl\output\transform\nieuwbouw_nl.json
+2026-06-03 21:28:39,035 | INFO     | START LOAD | Site: heijmans_nl
+2026-06-03 21:28:39,104 | INFO     | START SUPABASE LOAD...
+2026-06-03 21:28:39,265 | INFO     | START LOAD | Site: huurwoningen_rotterdam
+2026-06-03 21:28:39,336 | INFO     | START SUPABASE LOAD...
+2026-06-03 21:28:45,488 | INFO     | START LOAD | Site: nieuwbouw_rotterdam
+2026-06-03 21:28:45,545 | INFO     | START SUPABASE LOAD...
+2026-06-03 21:28:48,448 | INFO     | START LOAD | Site: nieuwbouw_nl
+2026-06-03 21:28:48,522 | INFO     | START SUPABASE LOAD...
